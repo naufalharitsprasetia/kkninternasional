@@ -98,13 +98,6 @@ Route::middleware('auth')->group(
         Route::get('/anggota_departement-edit/{anggotaDepartement}', [AnggotaDepartementController::class, 'edit'])->name('anggota_departement.edit');
         Route::put('/anggota_departement-edit/{anggotaDepartement}', [AnggotaDepartementController::class, 'update'])->name('anggota_departement.update');
         Route::delete('/anggota_departement-delete/{anggotaDepartement}', [AnggotaDepartementController::class, 'destroy'])->name('anggota_departement.destroy');
-        // UKM
-        Route::get('/ukm-list', [UKMController::class, 'list'])->name('ukm.list');
-        Route::get('/ukm-create', [UKMController::class, 'create'])->name('ukm.create');
-        Route::post('/ukm-create', [UKMController::class, 'store'])->name('ukm.store');
-        Route::get('/ukm-edit/{uKM}', [UKMController::class, 'edit'])->name('ukm.edit');
-        Route::put('/ukm-edit/{uKM}', [UKMController::class, 'update'])->name('ukm.update');
-        Route::delete('/ukm-delete/{uKM}', [UKMController::class, 'destroy'])->name('ukm.destroy');
     }
 );
 
@@ -116,13 +109,7 @@ Route::get('/blog/{blog}', [BlogController::class, 'show'])->name('blog.show');
 Route::get('/departement', [DepartementController::class, 'index'])->name('departement.index');
 Route::get('/departement/{departement}', [DepartementController::class, 'show'])->name('departement.show');
 
-// UKM
-Route::get('/ukm', [UKMController::class, 'index'])->name('ukm.index');
-Route::get('/ukm/{uKM}', [UKMController::class, 'show'])->name('ukm.show');
-
-// HMP
-
-// Variabel Website DEMA
+// Variabel Website
 
 // Redirect
 Route::get('{any}', [HomeController::class, 'index'])->name('index');

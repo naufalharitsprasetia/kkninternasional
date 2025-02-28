@@ -107,26 +107,22 @@
 {{-- Count Section --}}
 <div class="count-section bg-third text-white">
     <div
-        class="count flex flex-wrap md:flex-nowrap gap-12 max-w-7xl px-12 py-16 mx-auto justify-center md:justify-between items-center">
+        class="count flex flex-wrap md:flex-nowrap gap-12 max-w-7xl px-12 py-16 mx-auto justify-center md:justify-evenly items-center">
         <div class="count-card text-center">
-            <h2 class="font-bold text-5xl">64</h2>
-            <span class="font-bold text-xl">Pengurus</span>
+            <h2 class="font-bold text-5xl">3</h2>
+            <span class="font-bold text-xl">DPL</span>
         </div>
         <div class="count-card text-center">
-            <h2 class="font-bold text-5xl">11</h2>
-            <span class="font-bold text-xl">Departemen</span>
-        </div>
-        <div class="count-card text-center">
-            <h2 class="font-bold text-5xl">13</h2>
-            <span class="font-bold text-xl">UKM</span>
-        </div>
-        <div class="count-card text-center">
-            <h2 class="font-bold text-5xl">17</h2>
-            <span class="font-bold text-xl">Himpunan</span>
-        </div>
-        <div class="count-card text-center">
-            <h2 class="font-bold text-5xl">1300</h2>
+            <h2 class="font-bold text-5xl">9</h2>
             <span class="font-bold text-xl">Mahasiswa</span>
+        </div>
+        <div class="count-card text-center">
+            <h2 class="font-bold text-5xl">15</h2>
+            <span class="font-bold text-xl">Mahasiswi</span>
+        </div>
+        <div class="count-card text-center">
+            <h2 class="font-bold text-5xl">9</h2>
+            <span class="font-bold text-xl">Mitra</span>
         </div>
     </div>
 </div>
@@ -157,22 +153,6 @@
     </div>
     <div class="flex max-w-7xl px-12 justify-center align-center pt-8 pb-16 mx-auto">
         <a href="" class="bg-sixth text-white px-2 py-2 rounded-md hover:opacity-85">Artikel Lainnya</a>
-    </div>
-</div>
-{{-- Video Profil Section --}}
-<div class="video-section bg-secondary bg-cover" style="background-image: url('/img/videocorak.png')">
-    <div class="artikel max-w-7xl px-12 pt-12 mx-auto pb-12">
-        <div class="mx-auto text-center">
-            <h2 class="text-primary text-5xl font-bold">Video Profil</h2>
-        </div>
-        {{-- <div class="relative w-full pt-[66%] bg-no-repeat bg-center bg-cover" style="background-image: url();">
-        </div> --}}
-        <div class="flex justify-center items-center mx-auto pt-8">
-            <iframe width="840" height="460" src="https://www.youtube.com/embed/LkM0EQjiVyM?si=Evdj5ncBUN6EhFIG"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
     </div>
 </div>
 @endsection
