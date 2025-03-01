@@ -1,13 +1,14 @@
 {{-- Footer --}}
 <!-- Footer Section -->
 <footer class="text-primary p-6 ">
-    <div class="container max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-evenly items-center">
+    <div
+        class="container max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-evenly items-center">
         <!-- Left Section: Logo and Details -->
         <div class="flex items-center space-x-4">
-            <img src="/img/logodema.png" alt="Logo" class="w-16">
+            <img src="/img/logokkn.png" alt="Logo" class="w-16">
             <div>
-                <p class="font-bold">DEMA UNIDA GONTOR</p>
-                <p class="font-bold">KABINET HADISATYA</p>
+                <p class="font-bold">KKN INTERNASIONAL UNIDA GONTOR</p>
+                <p class="font-bold">MALAYSIA A</p>
                 </p>
             </div>
         </div>
@@ -15,7 +16,7 @@
         <div class="mid-footer flex flex-col">
             <h4 class="font-semibold text-lg my-4">Follow Us on Social Media</h4>
             <div class="flex mx-auto gap-4">
-                <a href="https://www.instagram.com/sc_unidagontor/" target="_blank">
+                <a href="https://www.instagram.com/kkn_internasional.unidagontor/" target="_blank">
                     <img class="w-8" src="/img/instagram.png" alt="">
                 </a>
                 <a href="">
@@ -37,11 +38,11 @@
             <div class="flex mt-4 gap-8 flex-col md:flex-row">
                 <div class="email">
                     <h4 class="text-base font-semibold">Email</h4>
-                    <p class="text-sm">demasiman@unida.gontor.ac.id</p>
+                    <p class="text-sm">kkninternasional@unida.gontor.ac.id</p>
                 </div>
                 <div class="narahubung">
                     <h4 class="text-base font-semibold">Narahubung</h4>
-                    <p class="text-sm">+62-979-5749-5743</p>
+                    <p class="text-sm">+62-812-2059-4202</p>
                 </div>
             </div>
         </div>

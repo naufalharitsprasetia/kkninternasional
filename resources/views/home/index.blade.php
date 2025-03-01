@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-<style>
+{{-- <style>
     .aurora-bg {
         position: absolute;
         width: 100%;
@@ -18,7 +18,7 @@
         filter: blur(100px);
         border-radius: 9999px;
     }
-</style>
+</style> --}}
 {{-- Hero Section --}}
 <div class="min-h-svh flex justify-center items-center">
     {{-- Aurora --}}
@@ -51,27 +51,24 @@
         </div>
     </div>
     <div class="mx-auto">
-        <img class="mx-auto" src="/img/fotokita.png" alt="" loading="lazy">
+        <br>
+        <img class="mx-auto" src="/img/fotokitaa.jpg" alt="" loading="lazy">
     </div>
 </div>
 {{-- Tentang Dema Section --}}
-<div class="about-section bg-primary">
-    <div class="about flex flex-col lg:flex-row max-w-7xl mx-auto px-12 py-16 text-secondary">
-        <div class="logo-about w-full w-[150rem] flex items-center justify-center px-10">
-            <img class="w-[150rem]" src="/img/logodema.png" alt="" loading="lazy">
+<div class="about-section bg-secondary">
+    <div class="about flex flex-col lg:flex-row max-w-7xl mx-auto px-12 py-16 text-primary">
+        <div class="logo-about w-full w-[80rem] flex items-center justify-center px-10">
+            <img class="w-[150rem]" src="/img/logokkn.png" alt="" loading="lazy">
         </div>
         <div class="text-about">
-            <h2 class="font-bold text-[50px] text-center mb-8">Tentang DEMA</h2>
-            <p class="text-base font-normal">Dewan Mahasiswa (DEMA) adalah sebuah organisasi dari, oleh, dan untuk
-                mahasiswa. dewan mahasiswa juga merupakan organisasi tertinggi di universitas darussalam gontor yang
-                membantu rektor menaungi seluruh aspek kehidupan mahasiswa.</p>
+            <h2 class="font-bold text-[50px] text-center mb-8">Tentang KKN</h2>
+            <p class="text-base font-normal">Kuliah Kerja Nyata (KKN) adalah program pengabdian kepada masyarakat yang
+                biasanya diwajibkan bagi mahasiswa di perguruan tinggi di Indonesia.</p>
             <br>
-            <p>Dewan Mahasiswa bertanggung jawab atas keseluruhan dinamika yang ada, dan perannya dalam khidmahnya
-                kepada nusa, bangsa dan agama dengan cara belajar, berkarya, dan berjuang berdasarkan olah dzikir, olah
-                pikir, olah rasa dan olah raga. Tujuan dari dewan mahasiswa adalah ikut serta dalam pembinaan di
-                Universitas Darussalam Gontor dalam rangka membentuk mahasiswa mu'min, muslim yang berbudi tinggi,
-                berbadan sehat, berpengetahuan luas, dan berpikiran bebeas serta taat menjalankan dan menegakkan
-                syari'at islam, berkhidmah kepada bangsa dan negara </p>
+            <p>Dalam program ini, mahasiswa diterjunkan ke masyarakat untuk menerapkan ilmu yang telah dipelajari di
+                perkuliahan dengan tujuan
+                membantu pembangunan dan pemberdayaan masyarakat.</p>
         </div>
     </div>
 </div>
@@ -81,24 +78,21 @@
         <div class="visi">
             <h2 class="font-semibold text-xl bg-primary text-secondary inline-block px-5 py-3 rounded-lg mb-5">Visi
             </h2>
-            <p class="text-[18px]">Menjadikan Dewan Mahasiswa Universitas Darussalam Gontor sebagai wadah inklusif yang
-                berperan inspiratif,
-                inklusif, dan inovatif dalam membangun karakter, kompetensi, dan kontribusi mahasiswa, guna menciptakan
-                generasi pemimpin yang berintegritas, berwawasan luas, dan berkomitmen pada nilai-nilai Islami.</p>
+            <p class="text-[18px]">Mewujudkan mahasiswa yang berperan aktif dalam pembangunan masyarakat melalui
+                pengabdian berbasis ilmu pengetahuan, teknologi, dan budaya dengan semangat kebersamaan dan
+                keberlanjutan.</p>
         </div>
         <div class="misi mt-4 md:mt-0">
             <h2 class="font-semibold text-xl bg-primary text-secondary inline-block px-5 py-3 rounded-lg mb-5">Misi
             </h2>
             <ul class="text-[18px]">
-                <li>- Membangun lingkungan yang kondusif bagi seluruh mahasiswa untuk mengembangkan potensi secara
-                    optimal, baik dalam aspek intelektual, spiritual, maupun sosial, sehingga dapat menjadi pemimpin
-                    yang inspiratif dan membawa perubahan positif bagi lingkungan.
+                <li>- Menerapkan ilmu dan keterampilan yang telah diperoleh di bangku kuliah untuk membantu
+                    menyelesaikan permasalahan di masyarakat.
                 </li>
                 <br>
-                <li>- Membangun mahasiswa Universitas Darussalam Gontor sebagai individu yang unggul dan berdaya saing
-                    melalui pengembangan jejaring antar kampus, baik di tingkat nasional maupun internasional, sebagai
-                    dukungan terhadap misi internasionalisasi kampus pada tingkat (world-class university) dan
-                    memperluas eksistensi mahasiswa di berbagai kancah global.
+                <li>- Memberdayakan masyarakat melalui program-program yang berkelanjutan dan berbasis kebutuhan lokal.
+                </li>
+                <li>- Meningkatkan kepedulian sosial dan tanggung jawab mahasiswa terhadap lingkungan dan masyarakat.
                 </li>
             </ul>
         </div>
