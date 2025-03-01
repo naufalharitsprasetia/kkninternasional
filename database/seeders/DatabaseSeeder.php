@@ -51,7 +51,6 @@ class DatabaseSeeder extends Seeder
         $this->call([
             BlogSeeder::class,
             DepartementSeeder::class,
-            UKMSeeder::class,
         ]);
     }
 }
