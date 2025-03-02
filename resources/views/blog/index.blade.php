@@ -42,7 +42,7 @@
                     loading="lazy"
                     class="w-full h-full object-cover transform transition-transform hover:scale-110 duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
-                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">DEMA</span>
+                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
                     <h3 class="text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $beritaUtama1->judul }}</h3>
                     <p class="mt-2">{{ $beritaUtama1->user->name }} -
@@ -56,7 +56,7 @@
                     loading="lazy"
                     class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
-                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">DEMA</span>
+                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
                     <h3 class="text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $beritaUtama2->judul }}</h3>
                     <p class="mt-2">{{ $beritaUtama2->user->name }} -
@@ -70,7 +70,7 @@
                 <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->judul }}" loading="lazy"
                     class="lg:w-[300px] lg:h-[200px] object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
-                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">DEMA</span>
+                    <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
                     <h3 class="text-lg font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $blog->judul }}</h3>
                 </div>

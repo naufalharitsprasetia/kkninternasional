@@ -7,8 +7,8 @@
 {{-- Artikels --}}
 <div class="artikel-section text-primary">
     <div class="artikel max-w-7xl mx-auto py-12 pb-6">
-        <p class="mb-4 px-4 text-center"><a href="/blog" class="font-bold">Articles</a> /
-            DEMA</p>
+        <p class="mb-4 px-4 text-center"><a href="/blog" class="font-bold">Berita Acara</a> /
+            KKN</p>
         {{-- card artikel --}}
         <div class="halaman-artikel px-4">
             @auth
