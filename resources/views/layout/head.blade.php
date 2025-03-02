@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{-- Canonical --}}
     {{-- @stack('canonical') --}}
-    <meta name="description"
-        content="DEMA Unida Gontor adalah sebuah organisasi mahasiswa di universitas darussalam gontor" />
+    <meta name="description" content="KKN INTERNASIONAL Unida Gontor Malaysia A" />
     {{-- Font AWESOME, highlight, sweetalert --}}
     <script src="https://kit.fontawesome.com/0e361b3f2b.js" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
