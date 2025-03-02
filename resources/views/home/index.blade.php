@@ -1,33 +1,9 @@
 @extends('layout.main')
 
 @section('content')
-{{-- <style>
-    .aurora-bg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        /* overflow: hidden; */
-    }
 
-    .aurora {
-        position: absolute;
-        width: 30rem;
-        height: 30rem;
-        background: radial-gradient(circle, var(--tw-gradient-from), var(--tw-gradient-to));
-        opacity: 0.2;
-        filter: blur(100px);
-        border-radius: 9999px;
-    }
-</style> --}}
 {{-- Hero Section --}}
 <div class="min-h-svh flex justify-center items-center">
-    {{-- Aurora --}}
-    <div class="aurora-bg -z-10">
-        <div class="aurora aurora-green from-dema/65 to-dema/35 top-[-10rem] left-[20%]"></div>
-        <div class="aurora aurora-green from-dema/65 to-dema/35 bottom-[20rem] right-[85%]"></div>
-        <div class="aurora aurora-green from-dema/65 to-dema/35 bottom-[-10rem] left-[70%]"></div>
-    </div>
-    {{-- End Aurora --}}
 
     {{-- main Content --}}
     <div class="text-center flex flex-col justify-center items-center text-dema p-3 md:p-8 z-20">
@@ -44,7 +20,7 @@
 </div>
 
 {{-- Kabinet Section --}}
-<div class="kabinet-section bg-secondary bg-cover" style="background-image: url('/img/tulisanhadisatya.png')">
+<div class="kabinet-section bg-cover" style="background-image: url('/img/tulisanhadisatya.png')">
     <div class="kabinet flex flex-col max-w-7xl mx-auto pt-16 text-center justify-center">
         <div class="">
             <h1 class="font-jakarta text-5xl font-bold drop-shadow-lg text-primary">Angkatan II</h1>
@@ -56,9 +32,9 @@
     </div>
 </div>
 {{-- Tentang Dema Section --}}
-<div class="about-section bg-secondary">
+<div class="about-section">
     <div class="about flex flex-col lg:flex-row max-w-7xl mx-auto px-12 py-16 text-primary">
-        <div class="logo-about w-full w-[80rem] flex items-center justify-center px-10">
+        <div class="logo-about w-full flex items-center justify-center px-10">
             <img class="w-[150rem]" src="/img/logokkn.png" alt="" loading="lazy">
         </div>
         <div class="text-about">
@@ -73,17 +49,17 @@
     </div>
 </div>
 {{-- Visi Misi Section --}}
-<div class="visimisi-section bg-secondary text-primary">
+<div class="visimisi-section bg-secondary text-white">
     <div class="visimisi flex flex-wrap md:flex-nowrap mx-auto max-w-7xl px-10 py-16">
         <div class="visi">
-            <h2 class="font-semibold text-xl bg-primary text-secondary inline-block px-5 py-3 rounded-lg mb-5">Visi
+            <h2 class="font-semibold text-xl bg-primary inline-block px-5 py-3 rounded-lg mb-5">Visi
             </h2>
             <p class="text-[18px]">Mewujudkan mahasiswa yang berperan aktif dalam pembangunan masyarakat melalui
                 pengabdian berbasis ilmu pengetahuan, teknologi, dan budaya dengan semangat kebersamaan dan
                 keberlanjutan.</p>
         </div>
         <div class="misi mt-4 md:mt-0">
-            <h2 class="font-semibold text-xl bg-primary text-secondary inline-block px-5 py-3 rounded-lg mb-5">Misi
+            <h2 class="font-semibold text-xl bg-primary inline-block px-5 py-3 rounded-lg mb-5">Misi
             </h2>
             <ul class="text-[18px]">
                 <li>- Menerapkan ilmu dan keterampilan yang telah diperoleh di bangku kuliah untuk membantu
@@ -99,12 +75,12 @@
     </div>
 </div>
 {{-- Count Section --}}
-<div class="count-section bg-third text-white">
+<div class="count-section text-primary">
     <div
         class="count flex flex-wrap md:flex-nowrap gap-12 max-w-7xl px-12 py-16 mx-auto justify-center md:justify-evenly items-center">
         <div class="count-card text-center">
             <h2 class="font-bold text-5xl">3</h2>
-            <span class="font-bold text-xl">DPL</span>
+            <span class="font-bold text-xl">Dosen Pembimbing Lapangan</span>
         </div>
         <div class="count-card text-center">
             <h2 class="font-bold text-5xl">9</h2>
@@ -121,7 +97,7 @@
     </div>
 </div>
 {{-- Artikel Section --}}
-<div class="artikel-section bg-primary text-secondary">
+<div class="artikel-section bg-primary text-white">
     <div class="artikel flex flex-col md:flex-row max-w-7xl px-12 pt-16 mx-auto">
         <div class="heading-artikel pr-10 mr-8">
             <h2 class="font-semibold text-5xl mb-8">Berita Acara</h2>

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {{-- Logo --}}
-    <link rel="shortcut icon" href="/img/logodema.png" type="image/png">
+    <link rel="shortcut icon" href="/img/logokkn.png" type="image/png">
     {{-- Font AWESOME --}}
     <script src="https://kit.fontawesome.com/0e361b3f2b.js" crossorigin="anonymous"></script>
     {{-- Style CSS --}}
     @vite('resources/css/app.css')
-    <title>DEMA | UNIDA GONTOR </title>
+    <title>KKN INTERNASIONAL | UNIDA GONTOR </title>
 </head>
 
 <body class="h-full bg-primary text-white">
@@ -21,16 +21,16 @@
     {{-- Back Button --}}
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-            <img class="mx-auto h-24 w-auto" src="/img/logodema.png" alt="Your Company">
+            <img class="mx-auto h-24 w-auto" src="/img/logokkn.png" alt="Your Company">
             <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight">Masuk ke Akun
             </h2>
         </div>
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             @if (session()->has('loginError'))
-                <div class="alert alert-error col-lg-12" role="alert">
-                    {{ session('loginError') }}
-                </div>
+            <div class="alert alert-error col-lg-12" role="alert">
+                {{ session('loginError') }}
+            </div>
             @endif
             <form class="space-y-4" action="/login" method="POST">
                 @csrf
@@ -43,9 +43,9 @@
                                 input-wrong
                             @enderror  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6">
                         @error('email')
-                            <div class="label-error bg-white mt-3">
-                                error : {{ $message }}
-                            </div>
+                        <div class="label-error bg-white mt-3">
+                            error : {{ $message }}
+                        </div>
                         @enderror
                     </div>
                 </div>
@@ -60,9 +60,9 @@
                                 input-wrong
                             @enderror placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:yellow-indigo-600 sm:text-sm sm:leading-6">
                         @error('password')
-                            <div class="label-error bg-white mt-3">
-                                error : {{ $message }}
-                            </div>
+                        <div class="label-error bg-white mt-3">
+                            error : {{ $message }}
+                        </div>
                         @enderror
                     </div>
                 </div>

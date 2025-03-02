@@ -1,9 +1,9 @@
 <nav class="z-50 w-full fixed transition ease-in-out" id="myNavbar">
     {{-- sebenernya ada add remove bg-secondary/70 di .js nya --}}
     <div class="bg-white/80 backdrop-blur hidden"></div>
-    <div class="mx-auto max-w-7xl px-2 lg:px-8">
+    <div class="max-w-7xl px-2 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-            <div class="flex md:flex-1 mx-auto md:mx-0 items-center justify-center lg:items-stretch lg:justify-start">
+            <div class="flex md:flex-1 md:mx-0 items-center justify-center lg:items-stretch lg:justify-start">
                 <div class="flex flex-shrink-0 items-center md:ml-28">
                     <img src="/img/logokkn.png" alt="Logo KKN" class="w-10">
                     <h2 class="mx-3 md:mx-4 text-black font-jakarta font-semibold text-base md:text-lg">KKN
@@ -13,7 +13,7 @@
                 <div class="hidden lg:ml-6 lg:block">
                     <div class="ml-10 flex gap-6 items-center">
                         <a href="/"
-                            class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'beranda' ? 'underline' : 'hover:text-dema' }} ">Home</a>
+                            class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'beranda' ? 'underline' : 'hover:text-dema' }} ">Beranda</a>
                         <a href="/departement"
                             class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'departement' ? 'underline' : 'hover:text-dema' }}">Kelompok</a>
                         <a href="/blog"
@@ -55,21 +55,16 @@
                             aria-expanded="false" aria-haspopup="true">
                             <span class="absolute -inset-1.5" id="user-menu-button"></span>
                             <span class="sr-only">Open user menu</span>
-                            <span class="text-black font-normal px-3 py-2 group-hover:text-dema">Other Menu</span>
+                            <span class="text-black font-normal px-3 py-2 group-hover:text-dema">Menu Lainnya</span>
                         </button>
                     </div>
                     <!-- Dropdown menu *(lainnya) -->
                     <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden"
                         role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button">
                         {{-- lainnya --}}
-                        <a href="/about"
-                            class="text-center block px-4 py-2 text-sm {{ $active == 'about' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">About
-                            Us</a>
                         <a href="/contact"
                             class="text-center block px-4 py-2 text-sm {{ $active == 'contact' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Contact
                             US</a>
-                        <a href="/faq"
-                            class="text-center block px-4 py-2 text-sm {{ $active == 'faq' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">FAQ</a>
                         {{-- Admin --}}
                         @auth
                         <hr class="border-2 border-primary">
@@ -93,23 +88,21 @@
 
     <!-- Mobile menu, show/hide based on menu state. -->
     {{-- Dropdown small nav --}}
-    <div class="lg:hidden hidden absolute bg-gray-100 z-60 w-[80%] right-0 mx-[1rem] rounded-md shadow-xl"
-        id="mobile-menu">
+    <div class="lg:hidden hidden absolute bg-gray-100 z-60 left-0 mx-[1rem] rounded-md shadow-xl" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 lg:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="/"
-                class="block rounded-md px-3 py-2 text-base font-medium  {{ $active == 'beranda' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">Home</a>
+                class="block rounded-md px-3 py-2 text-base font-medium  {{ $active == 'beranda' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">Beranda</a>
             <a href="/blog"
-                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'blog' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Press
-                Release</a>
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'blog' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Berita
+                Acara</a>
+            <a href="/departements"
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kelompok</a>
+            <a href="/contact"
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'contact' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kontak
+                Kami</a>
             <a href="/departement"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">Departemen</a>
-            <a href="/about"
-                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'about' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">Abous
-                Us</a>
-            <a href="/lainnya"
-                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'lainnya' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">
-                Other Menu</a>
         </div>
         @auth
         <div class="border-t border-gray-700 pb-3 pt-4">

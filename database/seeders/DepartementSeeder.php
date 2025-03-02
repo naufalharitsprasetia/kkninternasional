@@ -15,16 +15,13 @@ class DepartementSeeder extends Seeder
      */
     public function run(): void
     {
-        $divisi1 = Division::where('nama', "Badan Pengurus Harian")->first();
-        $divisi2 = Division::where('nama', "Divisi Kemahasiswaan")->first();
-        $divisi3 = Division::where('nama', "Divisi Keilmuan")->first();
-        $divisi4 = Division::where('nama', "Divisi Minat Bakat")->first();
-        $divisi5 = Division::where('nama', "Divisi Eksternal")->first();
+        $divisi1 = Division::where('nama', "Sanggar Bimbingan")->first();
+        $divisi2 = Division::where('nama', "Lainnya")->first();
 
         Departement::create([
             'id' => Str::uuid(),
             'division_id' => $divisi1->id,
-            'nama' => 'Ketua',
+            'nama' => 'SB Kampung Pandan',
             'singkatan' => '',
             'urutan' => 1
         ]);
@@ -32,39 +29,56 @@ class DepartementSeeder extends Seeder
         Departement::create([
             'id' => Str::uuid(),
             'division_id' => $divisi1->id,
-            'nama' => 'Sekretaris',
+            'nama' => 'SB Kampung Bharu',
             'singkatan' => '',
             'urutan' => 2
         ]);
-
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Jalan Kebun',
+            'singkatan' => '',
+            'urutan' => 3
+        ]);
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Sentul',
+            'singkatan' => '',
+            'urutan' => 4
+        ]);
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Kepong',
+            'singkatan' => '',
+            'urutan' => 5
+        ]);
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Gombak',
+            'singkatan' => '',
+            'urutan' => 6
+        ]);
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Beranang',
+            'singkatan' => '',
+            'urutan' => 7
+        ]);
+        Departement::create([
+            'id' => Str::uuid(),
+            'division_id' => $divisi1->id,
+            'nama' => 'SB Hulu Klang',
+            'singkatan' => '',
+            'urutan' => 8
+        ]);
         Departement::create([
             'id' => Str::uuid(),
             'division_id' => $divisi2->id,
-            'nama' => 'Pertahanan',
-            'singkatan' => '',
-            'urutan' => 1
-        ]);
-
-        Departement::create([
-            'id' => Str::uuid(),
-            'division_id' => $divisi3->id,
-            'nama' => 'Depripkus',
-            'singkatan' => '',
-            'urutan' => 1
-        ]);
-
-        Departement::create([
-            'id' => Str::uuid(),
-            'division_id' => $divisi4->id,
-            'nama' => 'Kesenian',
-            'singkatan' => '',
-            'urutan' => 1
-        ]);
-
-        Departement::create([
-            'id' => Str::uuid(),
-            'division_id' => $divisi5->id,
-            'nama' => 'Publikasi',
+            'nama' => 'PPWNI Klang',
             'singkatan' => '',
             'urutan' => 1
         ]);

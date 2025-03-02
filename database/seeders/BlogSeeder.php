@@ -13,34 +13,6 @@ class BlogSeeder extends Seeder
      */
     public function run(): void
     {
-        //
-        Blog::create([
-            'id' => '26f88681-d106-4a17-a7a6-c24b668ab363',
-            'user_id' => 1,
-            'judul' => 'Internal Cup 2024',
-            'isi' => '
-
-Halo Bumi Darussalam 👋
-
-الْعَقْلُ السَلِيْمُ فِي الْجِسْمِ السَلِيْمِ
-
-\"Akal yang sehat, terdapat pada badan yang sehat.\"
-
-Pada tanggal 17 -21 Agustus 2024 sebagai bentuk rentetan acara kemerdekaan Republik Indonesia, Dewan Mahasiswa Departemen Olahraga mengadakan Tournament internal untuk tim futsal UNIDA Gontor. Pertarungan yang sengit dan skill yang luar biasa ditunjukkan oleh para pemain di setiap tim. Demi mendapatkan hasil yang terbaik pada Tournament kali ini.🔥
-
-Tournament futsal telah sukses digelar! 🎉🏆
-Terima kasih kepada semua tim yang telah berkompetisi dengan semangat tinggi dan sportivitas. Selamat kepada juara kita dan terima kasih kepada para pendukung yang telah memberikan dukungan luar biasa. 👏
-
-Sampai jumpa di turnamen berikutnya!
-
-',
-            'image' => 'blogs/qActioMMJj44L6qH0GQ8J7Lr5tYm6CgjnrScEA7y.jpg',
-            'link_dokumentasi' => 'https://drive.google.com/drive/folders/1vvV1wwIrrHezS1isVa-Je4PmDGdfWqR-?usp=sharing',
-            'created_at' => '2024-10-26 14:04:28',
-            'updated_at' => NULL
-        ]);
-
-
         Blog::create([
             'id' => '2c79a8f3-c344-4633-9de7-6555136bdba2',
             'user_id' => 1,
@@ -169,65 +141,6 @@ Menuju masa depan yang lebih cerah.
             'link_dokumentasi' => 'https://drive.google.com/drive/folders/1THI5LsdXIFTBcLUuyxtZiwZ5Zd-0vxcc?usp=drive_link',
             'created_at' => '2024-10-26 15:11:06',
             'updated_at' => NULL
-        ]);
-
-
-        Blog::create([
-            'id' => 'afcd473d-7c42-4116-a337-24bb7d0a9ba9',
-            'user_id' => 1,
-            'judul' => 'Gebyar Anak Sholeh',
-            'isi' => '
-
-Halo Bumi Darussalam 👋
-
-Pada tanggal 25 Agustus 2024 Departemen Pengabdian Masyarakat menggelar acara Gebyar Anak Sholeh dan Sholehah yang terdiri dari 17 TPA Binaan UNIDA Gontor. Kegiatan ini bertujuan untuk menciptakan generasi muda yang aktif, kreatif dan berilmu dalam meningkatkan iman dan taqwa kepada Allah SWT.
-
-',
-            'image' => 'blogs/IiVBHm6mDIiadKCIyD5uoAtlviTrbTkw03GvkK0s.jpg',
-            'link_dokumentasi' => 'https://drive.google.com/drive/folders/11XOV50p5wX1iO_bW7-cP_GjUkGbsHIAj?usp=drive_link',
-            'created_at' => '2024-10-26 14:14:16',
-            'updated_at' => NULL
-        ]);
-
-
-        Blog::create([
-            'id' => 'e025c27b-705e-470c-952b-73a6c55b5d70',
-            'user_id' => 1,
-            'judul' => 'JAMMING SESSION UNIDA GONTOR',
-            'isi' => '
-
-Pada tanggal 5 Oktober 2024, Departemen Kesenian menggadakan acara Jamming Session yang bertujuan untuk memberikan ruang kepada para mahasiswa untuk mengekspresikan kreativitas nya melalui musik dan menikmati malam yang penuh dengan nada dan harmoni.
-
-siapa saja bisa menuangkan bakatnya dalam bermusik pada acara ini, dari mahasiswa , Pascasarjana, bahkan sampai kalangan staff dan dosen pun bisa ikut berkontribusi dalam acara ini.
-
-HAVE FUN AND
-ENJOY THE NIGHT WITH HARMONY
-
-',
-            'image' => 'blogs/jw08cNaZUNhNx4rgFw204r0ZVn128fuJ1wirXjkR.jpg',
-            'link_dokumentasi' => 'https://drive.google.com/drive/folders/1aWUXlNKVMgdQksCB5LZR8pnJIbyYt4RQ?usp=drive_link',
-            'created_at' => '2024-10-26 15:09:10',
-            'updated_at' => NULL
-        ]);
-
-
-        Blog::create([
-            'id' => 'ff861364-2970-4d51-ab28-348aa5fc57ef',
-            'user_id' => 1,
-            'judul' => 'LDK ( Latihan Dasar Kepemimpinan )',
-            'isi' => '
-
-Halo Bumi Darussalam 👋
-
-Pada tanggal 15 Agustus 2024 telah terlaksana \"Latihan Dasar Kepemimpinan\" untuk Dewan Mahasiswa Kabinet Hadisatya sebagai langkah awal menuju kepengurusan 1 periode ke depan. Materi disampaikan oleh Al-Ustadz Ahmad Hidayatullah Zarkasyi, M.A, dan Al-Ustadz Assoc Dr. Khalid Muslih, M.A., beliau menyampaikan \"Pemimpin itu diibaratkan sebagai seorang pengemudi yang harus paham betul apa yang dikemudikan nya dan akan dibawa ke tujuan yang mana\". Maka dengan diadakannya acara ini diharapkan untuk para pengurus baru ini bisa lebih membawa Dema Mahasiswa ke arah yang lebih baik lagi.
-
-
-
-',
-            'image' => 'blogs/ukA2viGRGoVqwqwSXOYC1OutOpnCKMIJFXAdkOWh.jpg',
-            'link_dokumentasi' => 'https://drive.google.com/drive/folders/1JEFdaxLeElevQN1_xJSf3fnOvz5fVYy5?usp=drive_link',
-            'created_at' => '2024-10-26 13:44:21',
-            'updated_at' => '2024-10-26 13:45:52'
         ]);
     }
 }

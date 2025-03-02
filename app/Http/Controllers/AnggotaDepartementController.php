@@ -7,6 +7,7 @@ use App\Models\Departement;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
 
 class AnggotaDepartementController extends Controller
 {
@@ -116,8 +117,8 @@ class AnggotaDepartementController extends Controller
         ];
         if ($request->hasFile('image')) {
             // Hapus gambar lama jika ada
-            if ($ukm->image) {
-                Storage::disk('public')->delete($ukm->image);
+            if ($anggotaDepartement->image) {
+                Storage::disk('public')->delete($anggotaDepartement->image);
             }
             // Simpan gambar baru
             $data['image'] = $request->file('image')->store('members', 'public');
