@@ -58,7 +58,7 @@
                     </div>
                     {{-- Back Side --}}
                     <div
-                        class="back-card absolute w-full h-full bg-secondary p-3 text-center backface-hidden transform rotate-y-180 flex flex-col items-center justify-center">
+                        class="back-card absolute w-full h-full bg-primary text-white p-3 text-center backface-hidden transform rotate-y-180 flex flex-col items-center justify-center">
                         <h4 class="font-semibold text-sm">{{ $member->nim }}</h4>
                         <h4 class="font-semibold text-lg">{{ $member->nama }}</h4>
                         <p class="text-sm mt-1">{{ $member->prodi }}</p>

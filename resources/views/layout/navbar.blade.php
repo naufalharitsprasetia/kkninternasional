@@ -88,7 +88,7 @@
 
     <!-- Mobile menu, show/hide based on menu state. -->
     {{-- Dropdown small nav --}}
-    <div class="lg:hidden hidden absolute bg-gray-100 z-60 left-0 mx-[1rem] rounded-md shadow-xl" id="mobile-menu">
+    <div class="lg:hidden hidden absolute bg-gray-100 z-60 right-4 mx-[1rem] rounded-md shadow-xl" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 lg:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="/"
@@ -96,13 +96,11 @@
             <a href="/blog"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'blog' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Berita
                 Acara</a>
-            <a href="/departements"
+            <a href="/departement"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kelompok</a>
             <a href="/contact"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'contact' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kontak
                 Kami</a>
-            <a href="/departement"
-                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white' }}">Departemen</a>
         </div>
         @auth
         <div class="border-t border-gray-700 pb-3 pt-4">
