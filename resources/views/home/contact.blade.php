@@ -17,11 +17,11 @@
                 </div>
                 <div class="flex flex-wrap md:flex-nowrap justify-center md:justify-normal py-6 px-2 items-center">
                     <img class="w-14 p-2 mr-4 bg-primary rounded-full" src="/img/gmail.png" alt="">
-                    <p class="font-medium text-lg">demasiman@unida.gontor.ac.id</p>
+                    <p class="font-medium text-lg">kkninternasional@unida.gontor.ac.id</p>
                 </div>
                 <div class="flex flex-wrap md:flex-nowrap justify-center md:justify-normal py-6 px-2 items-center">
                     <img class="w-14 p-2 mr-4 bg-primary rounded-full" src="/img/telepon.png" alt="">
-                    <p class="font-medium text-lg">+62 123 4567 8900</p>
+                    <p class="font-medium text-lg">+62 812-2059-4202</p>
                 </div>
             </div>
         </div>
