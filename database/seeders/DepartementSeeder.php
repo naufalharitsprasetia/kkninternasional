@@ -16,7 +16,7 @@ class DepartementSeeder extends Seeder
     public function run(): void
     {
         $divisi1 = Division::where('nama', "Sanggar Bimbingan")->first();
-        $divisi2 = Division::where('nama', "Lainnya")->first();
+        // $divisi2 = Division::where('nama', "Lainnya")->first();
 
         Departement::create([
             'id' => Str::uuid(),
@@ -57,7 +57,7 @@ class DepartementSeeder extends Seeder
         Departement::create([
             'id' => Str::uuid(),
             'division_id' => $divisi1->id,
-            'nama' => 'SB Gombak',
+            'nama' => 'SB Gombak Utara',
             'singkatan' => '',
             'urutan' => 6
         ]);
@@ -77,7 +77,7 @@ class DepartementSeeder extends Seeder
         ]);
         Departement::create([
             'id' => Str::uuid(),
-            'division_id' => $divisi2->id,
+            'division_id' => $divisi1->id,
             'nama' => 'PPWNI Klang',
             'singkatan' => '',
             'urutan' => 1

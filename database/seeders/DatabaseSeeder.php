@@ -27,11 +27,11 @@ class DatabaseSeeder extends Seeder
             'nama' => 'Sanggar Bimbingan',
             'urutan' => 1
         ]);
-        Division::create([
-            'id' => Str::uuid(),
-            'nama' => 'Lainnya',
-            'urutan' => 2
-        ]);
+        // Division::create([
+        //     'id' => Str::uuid(),
+        //     'nama' => 'Lainnya',
+        //     'urutan' => 2
+        // ]);
         $this->call([
             BlogSeeder::class,
             DepartementSeeder::class,
