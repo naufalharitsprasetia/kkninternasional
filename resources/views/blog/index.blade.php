@@ -43,9 +43,9 @@
                     class="w-full h-full object-cover transform transition-transform hover:scale-110 duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
                     <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
-                    <h3 class="text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
+                    <h3 class="text-sm md:text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $beritaUtama1->judul }}</h3>
-                    <p class="mt-2">{{ $beritaUtama1->user->name }} -
+                    <p class="mt-2 hidden md:block">{{ $beritaUtama1->user->name }} -
                         {{ \Carbon\Carbon::parse($beritaUtama1->created_at)->translatedFormat('d M Y') }}</p>
                 </div>
             </a>
@@ -57,9 +57,9 @@
                     class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
                     <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
-                    <h3 class="text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
+                    <h3 class="text-sm md:text-2xl font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $beritaUtama2->judul }}</h3>
-                    <p class="mt-2">{{ $beritaUtama2->user->name }} -
+                    <p class="mt-2 hidden md:block">{{ $beritaUtama2->user->name }} -
                         {{ \Carbon\Carbon::parse($beritaUtama2->created_at)->translatedFormat('d M Y') }}</p>
                 </div>
             </a>
