@@ -39,10 +39,12 @@
             <div class="px-16">
                 <p class="text-lg font-medium indent-8 mt-5">{!! $blog->isi !!}</p>
                 <br>
-                <p class="text-sm">{{ $blog->user->name }}</p>
+                <p class="text-sm">Editor : {{ $blog->user->name }}</p>
                 <hr class="border my-1 border-primary">
+                @if($blog->link_dokumentasi !== null)
                 <p class="text-sm">Link Dokumentasi : <a href="{{ $blog->link_dokumentasi }}" target="_blank"
                         class="underline">Klik Disini</a></p>
+                @endif
             </div>
         </div>
     </div>

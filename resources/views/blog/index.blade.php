@@ -71,7 +71,7 @@
                     class="lg:w-[300px] lg:h-[200px] object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out">
                 <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent text-white">
                     <span class="bg-blue-500 text-xs font-bold uppercase px-2 py-1">KKN</span>
-                    <h3 class="text-lg font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
+                    <h3 class="text-sm font-bold mt-2 transition-colors duration-300 hover:text-orange-500">
                         {{ $blog->judul }}</h3>
                 </div>
             </a>

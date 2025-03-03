@@ -99,11 +99,11 @@
 {{-- Artikel Section --}}
 <div class="artikel-section bg-primary text-white">
     <div class="artikel flex flex-col md:flex-row max-w-7xl px-12 pt-16 mx-auto">
-        <div class="heading-artikel pr-10 mr-8">
+        <div class="max-w-[450px] heading-artikel pr-10 mr-8">
             <h2 class="font-semibold text-5xl mb-8">Berita Acara</h2>
             <img class="w-[750px] h-[300px] object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out mb-4"
                 src="{{ asset('storage/' . $beritaUtama->image) }}" alt="" loading="lazy">
-            <h3 class="font-bold text-3xl">{{ $beritaUtama->judul }}</h3>
+            <h3 class="font-bold text-2xl">{{ $beritaUtama->judul }}</h3>
             <br>
             <a href="/blog/{{ $beritaUtama->id }}"
                 class="text-sixth font-semibold text-xl hover:opacity-85">Selengkapnya >></a>
@@ -112,10 +112,10 @@
             @foreach ($blogs as $blog)
             {{-- card artikel --}}
             <a class="hover:bg-third/80 rounded-lg p-2" href="/blog/{{ $blog->id }}">
-                <div class="card-artikel text-center">
+                <div class="card-artikel text-center max-w-[300px]">
                     <img class="w-[300px] h-[200px] object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out mb-4"
                         src="{{ asset('storage/' . $blog->image) }}" alt="" loading="lazy">
-                    <span class="font-semibold text-xl mt-3">{{ $blog->judul }}</span>
+                    <span class="font-semibold text-lg mt-3">{{ $blog->judul }}</span>
                 </div>
             </a>
             @endforeach
