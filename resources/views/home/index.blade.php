@@ -122,7 +122,7 @@
         </div>
     </div>
     <div class="flex max-w-7xl px-12 justify-center align-center pt-8 pb-16 mx-auto">
-        <a href="" class="bg-sixth text-white px-2 py-2 rounded-md hover:opacity-85">Artikel Lainnya</a>
+        <a href="/blog" class="bg-sixth text-white px-2 py-2 rounded-md hover:opacity-85">Artikel Lainnya</a>
     </div>
 </div>
 @endsection
