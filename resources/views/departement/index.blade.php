@@ -4,7 +4,7 @@
 {{-- DEPARTEMENT index --}}
 <div class="departement-section text-primary">
     <div class="departement max-w-7xl mx-auto py-16 text-center ">
-        <h1 class="text-5xl font-bold text-center">Kelompok Kami</h1>
+        <h1 class="text-5xl font-bold text-center">Kelompok Kami / Mitra</h1>
         <div class="divisons-group mt-5 font-poppins mx-12 md:mx-28">
             @foreach ($divisions as $division)
             {{-- Per Divisi --}}

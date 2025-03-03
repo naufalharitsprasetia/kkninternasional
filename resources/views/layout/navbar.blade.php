@@ -15,7 +15,7 @@
                         <a href="/"
                             class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'beranda' ? 'underline' : 'hover:text-dema' }} ">Beranda</a>
                         <a href="/departement"
-                            class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'departement' ? 'underline' : 'hover:text-dema' }}">Kelompok</a>
+                            class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'departement' ? 'underline' : 'hover:text-dema' }}">Kelompok/Mitra</a>
                         <a href="/blog"
                             class="rounded-md px-3 py-2 text-sm font-normal {{ $active == 'blog' ? 'underline' : 'hover:text-dema' }}">Berita
                             Acara</a>
@@ -97,7 +97,7 @@
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'blog' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Berita
                 Acara</a>
             <a href="/departement"
-                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kelompok</a>
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'departement' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kelompok/Mitra</a>
             <a href="/contact"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'contact' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kontak
                 Kami</a>
