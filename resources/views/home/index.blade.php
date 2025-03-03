@@ -99,7 +99,7 @@
 {{-- Artikel Section --}}
 <div class="artikel-section bg-primary text-white">
     <div class="artikel flex flex-col md:flex-row max-w-7xl px-12 pt-16 mx-auto">
-        <div class="max-w-[450px] heading-artikel pr-10 mr-8">
+        <div class="max-w-[450px] heading-artikel md:pr-10 md:mr-8">
             <h2 class="font-semibold text-5xl mb-8">Berita Acara</h2>
             <img class="w-[750px] h-[300px] object-cover transform hover:scale-110 transition-transform duration-300 ease-in-out mb-4"
                 src="{{ asset('storage/' . $beritaUtama->image) }}" alt="" loading="lazy">
