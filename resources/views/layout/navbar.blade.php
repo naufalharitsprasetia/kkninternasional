@@ -63,8 +63,10 @@
                         role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button">
                         {{-- lainnya --}}
                         <a href="/contact"
-                            class="text-center block px-4 py-2 text-sm {{ $active == 'contact' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Contact
-                            US</a>
+                            class="text-center block px-4 py-2 text-sm {{ $active == 'contact' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Kontak
+                            Kami</a>
+                        <a href="/modul"
+                            class="text-center block px-4 py-2 text-sm {{ $active == 'modul' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Modul</a>
                         {{-- Admin --}}
                         @auth
                         <hr class="border-2 border-primary">
