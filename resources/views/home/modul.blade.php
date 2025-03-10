@@ -30,7 +30,7 @@
             </a>
             <a href="https://docs.google.com/document/d/1EVFcKz99-GWH-ZvxasNbyIkcI-Sx3tTF/edit?usp=sharing&ouid=103194058458233679937&rtpof=true&sd=true"
                 target="_blank" class="card-modul border-2 border-primary hover:scale-105 bg-primary text-white">
-                <img src="./img/literasidigital.jpg" alt="" class="object-cover  w-[16rem] h-[16rem]">
+                <img src="./img/funlearning.jpg" alt="" class="object-cover  w-[16rem] h-[16rem]">
                 <h2 class="p-3">Modul Fun Learning</h2>
             </a>
             <a href="https://docs.google.com/document/d/1UcBNZ3XKkovhOnRUHlBeb6oZLlMdU6atBJFmMTwrSiQ/edit?usp=sharing"
