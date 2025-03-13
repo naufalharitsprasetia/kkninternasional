@@ -42,6 +42,11 @@ class HomeController extends Controller
         $active = 'modul';
         return view('home.modul',  compact('active'));
     }
+    public function dokumentasi()
+    {
+        $active = 'dokumentasi';
+        return view('home.dokumentasi',  compact('active'));
+    }
     public function faq()
     {
         $active = 'faq';

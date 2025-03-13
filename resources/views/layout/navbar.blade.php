@@ -67,6 +67,8 @@
                             Kami</a>
                         <a href="/modul"
                             class="text-center block px-4 py-2 text-sm {{ $active == 'modul' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Modul</a>
+                        <a href="/dokumentasi"
+                            class="text-center block px-4 py-2 text-sm {{ $active == 'dokumentasi' ? 'bg-slate-300 text-cyan-900' : 'text-cyan-700 hover:bg-slate-300 hover:text-cyan-900' }}">Dokumentasi</a>
                         {{-- Admin --}}
                         @auth
                         <hr class="border-2 border-primary">
@@ -103,6 +105,10 @@
             <a href="/contact"
                 class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'contact' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Kontak
                 Kami</a>
+            <a href="/modul"
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'modul' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Modul</a>
+            <a href="/dokumentasi"
+                class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'dokumentasi' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-Press Releasehover:text-white' }}">Dokumentasi</a>
         </div>
         @auth
         <div class="border-t border-gray-700 pb-3 pt-4">
